@@ -74,13 +74,13 @@ public class MainActivity extends AppCompatActivity {
         }
 
         public boolean onCreateOptionsMenu(Menu menu) {
-            getMenuInflater().inflate(R.menu.my,menu);
+            getMenuInflater().inflate(R.Menu,menu);
             return true;
         }
 
         public boolean onOptionsItemSelected(MenuItem item){
             int id = item.getItemId();
-            if(id == R.id.action_settings){
+            if(id == R.id.){
                 return true;
             }
             return super.onOptionsItemSelected(item);
