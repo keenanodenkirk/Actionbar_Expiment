@@ -11,4 +11,6 @@
     <string name="ui_menu_share">share</string>
     <string name="ui_menu_about">about</string>
     <string name="ui_menu_feedback">feedback</string>
+    <string name="ui_menu_quit">quit</string>
+    <string name="action_bar_button_search">action_bar_button_search</string>
 </resources>
