@@ -80,10 +80,10 @@ public class MainActivity extends AppCompatActivity {
 
         public boolean onOptionsItemSelected(MenuItem item){
             int id = item.getItemId();
-            if(id == R.id.){
+            if(id == R.id.action_settings){
                 return true;
             }
-            return super.onOptionsItemSelected(item);
+            return true;
         }
     }
 }
