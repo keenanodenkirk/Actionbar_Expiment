@@ -27,22 +27,22 @@
         android:title = "@string/ui_menu_about">
     </item>
     <item
-        android:id = "@+id/menuitem_search"
-        android:icon = "@android:drawable/ic_menu_search"
+        android:id = "@+id/menuitem_feedback"
+        android:icon = "@android:drawable/ic_menu_help"
         android:showAsAction = "ifRoom"
-        android:title = "@string/ui_menu_search">
+        android:title = "@string/ui_menu_feedback">
     </item>
     <item
-        android:id = "@+id/menuitem_search"
-        android:icon = "@android:drawable/ic_menu_search"
+        android:id = "@+id/menuitem_quit"
+        android:icon = "@android:drawable/ic_menu_close_clear_cancel"
         android:showAsAction = "ifRoom"
-        android:title = "@string/ui_menu_search">
+        android:title = "@string/ui_menu_quit">
     </item>
     <item
-        android:id = "@+id/menuitem_search"
-        android:icon = "@android:drawable/ic_menu_search"
+        android:id = "@string/action_settings"
+        android:orderInCategory="100"
         android:showAsAction = "ifRoom"
-        android:title = "@string/ui_menu_search">
+        android:title = "@string/action_settings">
     </item>
 
 </menu>
